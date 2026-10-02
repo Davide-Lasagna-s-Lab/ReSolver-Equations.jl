@@ -1,0 +1,20 @@
+name = "ReSolverEquations"
+uuid = "bca9b527-331f-4ea6-bc4d-f19856266aff"
+version = "0.1.0"
+authors = ["Davide Lasagna <davide.lasagna@soton.ac.uk>", "Thomas Burton <tburton5572@gmail.com>"]
+
+[deps]
+ReSolverFlowsBase = "9778a910-ce4d-423e-92be-12991f0cf10c"
+
+[compat]
+ReSolverFlowsBase = "0.1"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[sources]
+ReSolverFlowsBase = {path = "../ReSolver-FlowsBase.jl"}
