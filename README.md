@@ -18,5 +18,5 @@ lin(out, b)               # P L E b
 adj(out, b)               # P L* E b
 ```
 
-The cylindrical formulation is a sketch, not yet tested. Regularity at the pipe
-axis is imposed by the basis, not by the operators.
+Regularity at the pipe axis, in the cylindrical formulation, is imposed by the
+basis, not by the operators.

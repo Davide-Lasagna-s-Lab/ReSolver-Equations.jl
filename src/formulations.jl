@@ -26,7 +26,7 @@ const ddz! = ddx3!
 
 
 # ============================================================================ #
-# Cylindrical — SKETCH                                                         #
+# Cylindrical                                                                  #
 # ============================================================================ #
 #
 # Coordinates (r, θ, z), velocity (u_r, u_θ, u_z). The grid stores them in the
@@ -36,13 +36,12 @@ const ddz! = ddx3!
 #
 # The axis needs no special treatment here: the grid's radial derivatives serve
 # fields of either parity, and regularity at the axis is imposed by the basis.
-# SKETCH: the cylindrical operators are not yet tested.
 
 """
     Cylindrical(grid)
 
 Cylindrical formulation (r, θ, z) with velocity (u_r, u_θ, u_z), for a grid that
-stores r, θ, z in its x1, x2, x3 slots. SKETCH.
+stores r, θ, z in its x1, x2, x3 slots.
 """
 struct Cylindrical{R}
     r⁻¹::R # 1/r, shaped to broadcast over the storage arrays of the grid

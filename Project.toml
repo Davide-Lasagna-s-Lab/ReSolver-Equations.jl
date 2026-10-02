@@ -10,11 +10,5 @@ ReSolverFlowsBase = "9778a910-ce4d-423e-92be-12991f0cf10c"
 ReSolverFlowsBase = "0.1"
 julia = "1.10"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
-
 [sources]
 ReSolverFlowsBase = {path = "../ReSolver-FlowsBase.jl"}

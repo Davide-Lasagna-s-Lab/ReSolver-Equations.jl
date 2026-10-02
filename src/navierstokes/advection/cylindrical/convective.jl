@@ -19,7 +19,7 @@
 # space and commutes with the products.
 #
 # Linearised state: U, Gᵣ(U), G_θ(U), G_z(U) in physical space.
-# SKETCH: not yet tested. Regularity at the axis is imposed by the basis.
+# Regularity at the axis is imposed by the basis.
 
 # workspace sizes: linearised state, spectral and physical scratch
 _workspace_sizes(::Cylindrical, ::Convective) = (4, 4, 4)

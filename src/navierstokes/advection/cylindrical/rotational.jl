@@ -24,7 +24,7 @@
 # The continuous adjoint uses the forward curl, the curl being self-adjoint.
 #
 # Linearised state: U and Ω in physical space.
-# SKETCH: not yet tested. Regularity at the axis is imposed by the basis.
+# Regularity at the axis is imposed by the basis.
 
 # workspace sizes: linearised state, spectral and physical scratch
 _workspace_sizes(::Cylindrical, ::Rotational) = (2, 3, 3)
